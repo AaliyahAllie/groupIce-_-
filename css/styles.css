@@ -140,3 +140,7 @@ label input[type="checkbox"] {
     width: 80%; 
     margin: 0 auto; 
   }
+  h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
