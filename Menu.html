@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>GROUP ICE TASK</title>
+    <title>COFFEE CENTRAL</title>
+    <script src="script.js"></script>
     <style>
-      .my-main-class {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 100px;
-      }
-
-      img {
-          width: 400px;
-          height: 400px;
-          border-radius: 25%;
-          margin: 0;
-          border: 2px solid #000; 
-      }
-
-      .image-container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-      }
-
-      .caption {
-          margin-top: 10px;
-          text-align: center;
-          font-weight: bold;
-      }
-      .line-break-div {
+        .my-main-class {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 100px;
+        }
+        
+        img {
+            width: 400px;
+            height: 400px;
+            border-radius: 25%;
+            margin: 0;
+            border: 2px solid #000;
+        }
+        
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .caption {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .line-break-div {
             line-height: 2;
         }
-  </style>
-
+    </style>
 </head>
 <body>
     <header>
-        <image src="images/IceLogo.png" alt-Text="coffeeLogo"></image>
+        <img src="images/IceLogo.png" alt="coffeeLogo">
         <h1>COFFEE CENTRAL</h1>
         <div class="navbar">
             <nav>
@@ -53,77 +54,78 @@
     </header>
     <div class="banner">
         <h2>MENU</h2>
-        <h2>Welcome to Coffee Central</h2></div>
+        <h2>Welcome to Coffee Central</h2>
     </div>
+    <p>Our menu is a journey through the coffee landscapes of the world,</p>
+    <p>from the lush, sun-drenched fields where our beans are nurtured</p>
+    <p>to the expertly crafted drinks that fill your cup.</p>
+    <p>Each item on this menu is a testament to our quality and creativity.</p>
+    <p>The first 6 options will be a warm drink of your choice,</p>
+    <p>The 4 other options will be the list of desserts.</p>
+
+    <main class="my-main-class">
+        <div class="image-container">
+            <img src="images/Americano.jpeg" alt="Americano">
+            <p class="caption">Americano (R28.50)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Cafe_au_Lait.jpeg" alt="Cafe au Lait">
+            <p class="caption">Cafe au Lait (R36.00)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Cappuccino.jpeg" alt="Cappuccino">
+            <p class="caption">Cappuccino (R32.00)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Cortado.jpeg" alt="Cortado">
+            <p class="caption">Cortado (R38.50)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/DoubleEspresso.jpeg" alt="Double Espresso">
+            <p class="caption">Double Espresso (R30.00)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Macchiato.jpeg" alt="Macchiato">
+            <p class="caption">Macchiato (R33.00)</p>
+        </div>
+        <div class="line-break-div">
+            <br>
+            <br>
+        </div>
+        <div class="image-container">
+            <img src="images/Choclate_Muffin.jpeg" alt="Chocolate Muffin">
+            <p class="caption">Chocolate Muffin (R22.00)</p>
+        </div>
+        <div class "image-container">
+            <img src="images/Cinnamon_rolls.jpeg" alt="Cinnamon Rolls">
+            <p class="caption">Cinnamon Rolls (4pcs) (R26.50)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Milktart.jpeg" alt="Milk tart">
+            <p class="caption">Milk tart (per slice) (R20.00)</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Cheesecake.jpeg" alt="Cheesecake">
+            <p class="caption">Cheesecake (per slice) (R25.00)</p>
+        </div>
+    </main>
 </body>
 <footer>
-    <p style="color:#FFD700 ;">CONNECT WITH US</p>
+    <p style="color:#FFD700;">CONNECT WITH US</p>
     <form action="Form.html" target="_blank">
-      <div class="container">
-        <h2>Subscribe to our Newsletter</h2>
-      </div>
-      <div class="container" style="background-color:black"> 
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="text" placeholder="Email address" name="mail" required>
-        <label>
-          <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-        </label>
-      </div>
-      <div class="container">
-        <input class="sub" type="submit" value="Subscribe">
-      </div>
-      <p>Our menu is a journey through the coffee landscapes of the world,</p>
-      <p>from the lush, sun-drenched fields where our beans are nurtured</p>
-      <p>to the expertly crafted drinks that fill your cup.</p>
-      <p>Each item on this menus is a testament to our quality and creativity.</p>
-      <p>The first 6 options will be a warm drink of your choice,</p>
-      <p>The 4 other options will be the list of deserts.</p>
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+        </div>
+        <div class="container" style="background-color:black">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+        </div>
+        <div class="container">
+            <input class="sub" type="submit" value="Subscribe">
+        </div>
     </form>
-    <main class="my-main-class">
-      <div class="image-container">
-        <img src="images/Americano.jpeg" alt="Americano">
-        <p class="caption">Americano (R28.50)</p>
-    </div>
-    <div class="image-container">
-        <img src="images/Cafe_au_Lait.jpeg" alt="Cafe au Lait">
-        <p class="caption">Cafe au Lait (R36.00) </p>
-    </div>
-    <div class="image-container">
-        <img src="images/Cappuccino.jpeg" alt="Cappuchino">
-        <p class="caption">Cappuccino (R32.00)</p>
-    </div>
-    <div class="image-container">
-        <img src="images/Cortado.jpeg" alt="Cortado">
-        <p class="caption">Cortado (R38.50)</p>
-    </div>
-    <div class="image-container">
-        <img src="images/DoubleEspresso.jpeg" alt="Double Espresso">
-        <p class="caption">Double Espresso (R30.00)</p>
-    </div>
-    <div class="image-container">
-        <img src="images/Macchiato.jpeg" alt="Macchiato">
-        <p class="caption">Macchiato (R33.00)</p>
-    </div>
-    <div class="line-break-div">
-      <br>
-      <br>
-    </div>
-    <div class="image-container">
-      <img src="images/Choclate_Muffin.jpeg" alt="Choclate Muffin">
-      <p class="caption">Choclate Muffin (R22.00)</p>
-    </div>
-    <div class="image-container">
-      <img src="images/Cinnamon_rolls.jpeg" alt="Cinnamon Rolls">
-      <p class="caption">Cinnamon Rolls(4pcs) (R26.50)</p>
-    </div>
-    <div class="image-container">
-      <img src="images/Milktart.jpeg" alt="Milktart">
-      <p class="caption">Milktart(per slice) (R20.00)</p>
-    </div>
-    <div class="image-container">
-      <img src="images/Cheesecake.jpeg" alt="Cheesecake">
-      <p class="caption">Cheesecake(per slice) (R25.00)</p>
-    </div>
-    </main>
-  </footer>
-  </html>
+</footer>
+</html>
